@@ -1,0 +1,41 @@
+/* Sample Webpage Lab  style.css - Note that you need to fill this in yourself! */
+
+body {
+  /* Body styles go here.  Example:*/
+  font: 20px "Comic Sans MS", cursive, sans-serif;
+  background: #000080
+}
+
+h1{
+    text-decoration: underline;
+    font: 26px "Comic Sans MS", cursive, sans-serif;
+    color: #ffffff
+}
+
+p {
+    font: 20px "Arial", Arial, sans-serif;
+    color: #ffffff
+}
+
+a {
+    font: 18px "Lucida Console", Monaco, monospace;
+    color: #E8DE2A
+}
+
+a:active {
+    color: #ff69b4
+}
+
+a:hover{
+    background-color: #ff0000
+}
+
+table{
+    font: 20px "Courier New", Courier, monospace;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+
+/* Other possible style blocks go here... */

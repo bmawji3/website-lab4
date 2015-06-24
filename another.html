@@ -5,6 +5,12 @@
     <link rel="StyleSheet" href="style.css" type="text/css" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>CS 1301 Webpage Lab 3</title>
+    <ul>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/index.html">Index</a></li>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/joke1.html">Joke 1</a></li>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/joke2.html">Joke 2</a></li>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/another.html">Another</a></li>
+    </ul>
 </head>
 <body>
 
@@ -13,13 +19,23 @@
 
 <h1>Welcome to Bilal Mawji's website! Part 2!</h1>
 <p> Naruto! Bleach! </p>
-<a href="http://youtu.be/0TsE01qdy5A"><img src="http://goo.gl/HSdFbC" alt="Naruto_Sasuke_SOSP" style="width:602px;height:415px"/></a>
+<a href="http://youtu.be/0TsE01qdy5A"><img src="http://orig13.deviantart.net/7064/f/2014/308/2/b/naruto_and_sasuke_with_sage_of_the_six_paths_by_barelyprodigies-d859kvp.jpg" alt="Naruto_Sasuke_SOSP" style="width:602px;height:415px"/></a>
 <a href="http://youtu.be/1lsn2tT5yTc"><img src="http://goo.gl/Qa7cVk" alt="Ichigo_New_Zanpakuto" style="width:602px;height:415px"/></a>
 <p><strong>Bilal Mawji</strong></p>
 <p><strong>bmawji3@gatech.edu</strong></p>
 <p><strong>Section A07</strong></p>
 <p>I worked on this lab by myself using this semester's course materials when needed.</p>
 <p>And here's a <a href="http://www.prism.gatech.edu/~bmawji3/lab3/index.html">link</a> to get back to the main page.</p>
+
+<p id="surprise"></p>
+
+<button onclick="surprise()">Click me, maybe?</button>
+
+<script type="text/javascript">
+    function surprise() {
+        document.getElementById("surprise").innerHTML = "SURPRISE!!"
+    }
+</script>
 
 
 <!-- DO NOT CHANGE THIS CODE !-->

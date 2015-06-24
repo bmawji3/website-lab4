@@ -5,17 +5,21 @@
     <link rel="StyleSheet" href="style.css" type="text/css" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>CS 1301 Webpage Lab 3</title>
+    <ul>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/index.html">Index</a></li>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/joke1.html">Joke 1</a></li>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/joke2.html">Joke 2</a></li>
+        <li><a href="www.prism.gatech.edu/~bmawji3/lab3/another.html">Another</a></li>
+    </ul>
 </head>
 <body>
-
-
 <!-- Here's the body of your page, where all your spiffy HTML code goes -->
 
 <h1>Welcome to Bilal Mawji's website! Part 1!</h1>
 
 <p> Hello, how are you doing? To see the other webpage, click <a href="http://www.prism.gatech.edu/~bmawji3/lab3/joke1.html">here!</a></p>
 
-<img src="http://goo.gl/HSdFbC" alt="Naruto_Sasuke_SOSP" style="width:602px;height:415px"/>
+<img src="http://orig13.deviantart.net/7064/f/2014/308/2/b/naruto_and_sasuke_with_sage_of_the_six_paths_by_barelyprodigies-d859kvp.jpg" alt="Naruto_Sasuke_SOSP" style="width:602px;height:415px"/>
 <img src="http://goo.gl/Qa7cVk" alt="Ichigo_New_Zanpakuto" style="width:602px;height:415px"/>
 
 <p><strong>Bilal Mawji</strong></p>
@@ -26,6 +30,8 @@
 <p>For <strong><u>direct</u></strong> access to joke1.html, click <a href="http://www.prism.gatech.edu/~bmawji3/lab3/joke1.html">here</a>.</p>
 <p>For <strong><u>direct</u></strong> access to joke2.html, click <a href="http://www.prism.gatech.edu/~bmawji3/lab3/joke2.html">here</a>.</p>
 <p>For <strong><u>direct</u></strong> access to another.html, click <a href="http://www.prism.gatech.edu/~bmawji3/lab3/another.html">here</a>. (Clickable image is here)</p>
+
+<p id="surprise"></p>
 
 <table border = "1">
     <tr>
@@ -50,9 +56,19 @@
         <td>Sakura</td>
         <td>Rin</td>
         <td>Tsunade</td>
-        <td>Ino</td> 
+        <td>Ino</td>
    </tr>
 </table>
+
+<p></p>
+
+<button onclick="window.location='https://www.youtube.com/watch?v=fWNaR-rxAic';">Click me, maybe?</button>
+<!-- <button onclick="surprise()">Click me, maybe?</button> -->
+<script type="text/javascript">
+    function surprise() {
+        document.getElementById("surprise").innerHTML = "SURPRISE!!"
+    }
+</script>
 
 <p>Information from table above was gathered from this <a href="http://naruto.wikia.com/wiki/Category:Teams">website</a> and links on there.</p>
 
